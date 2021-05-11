@@ -15,4 +15,4 @@ Plot the result of continuous glucose monitoring by [freestyle libre](https://ww
 
 To estimate HbA1c from average blood glucose, following formula is used.  
 HbA1c=averaged blood glucose/30+1.7
-
+See [the reference page](http://koujiebe.blog95.fc2.com/blog-entry-838.html) for the details.
