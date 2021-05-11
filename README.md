@@ -1,5 +1,5 @@
 # plt-cgm
-Plot the result of continuous glucose monitoring by freestyle libre
+Plot the result of continuous glucose monitoring by [freestyle libre](https://www.freestyle.abbott/)
 
 ## Proceadure
 
@@ -10,4 +10,9 @@ Plot the result of continuous glucose monitoring by freestyle libre
 ## Example
 
 ![Sample](/img/sample.png)
+
+## Note
+
+To estimate HbA1c from average blood glucose, following formula is used.  
+HbA1c=averaged blood glucose/30+1.7
 
