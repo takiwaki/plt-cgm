@@ -17,7 +17,7 @@ from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 
 # input file from freestyle libre
 inputfile ="./fsl.txt"
-outputdir="figures/"
+outputdir="./"
 
 # the range of blood glucose in the figure
 ymin=60
