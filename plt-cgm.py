@@ -60,14 +60,15 @@ for line in finp:
     flag=int(data[ 3])
     if flag !=0 :
         continue
-    
+# YYYY/MM/DD => YYYY MM DD    
     ymdtmp = data[ 1]
     ymd=ymdtmp.split("/")
     
+# HH:MM => HH MM
     hmtmp = data[ 2]
     hm=hmtmp.split(":")
     timeline += [ datetime.datetime(int(ymd[0]),int(ymd[1]),int(ymd[2]),int(hm[0]), int(hm[1]), 0) ]
-    BG += [int(data[ 4])] # [cm]
+    BG += [int(data[ 4])] # [mg/dl]
 
 #    print(timeline[-1],BG[-1]) # last for debug
 finp.close()
