@@ -120,6 +120,9 @@ fig.text(0.15,0.80, "HbA1c: "+str(round(hba,1))+" %", size=16)
 filename=outputdir+"total.png"
 fig.savefig(filename)
 
+for txt in fig.texts:
+    txt.set_visible(False)
+
 #################################
 # Plot data in each day
 #################################
